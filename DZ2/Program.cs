@@ -29,4 +29,4 @@ else
     y = k1 * x + b1;
 }
 
-Console.WriteLine($"{x}; {y}");
+Console.WriteLine($"точка пересечения двух прямых X {x}; Y {y}");
