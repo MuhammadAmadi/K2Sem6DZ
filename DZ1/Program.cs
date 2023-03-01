@@ -28,9 +28,9 @@ string ArrMinusPlus(int[] array, bool plus = true)
     {
         if(plus) 
         {
-            if(array[i] > 0 == plus) count++;
+            if(array[i] > 0) count++;
         }
-        else if(array[i] > 0 == plus) count++;
+        else if(array[i] < 0) count++;
     }
     return plus ? $"положительных чисел {count}" : $"отрицательных чисел {count}";
 }
